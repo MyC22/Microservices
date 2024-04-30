@@ -9,9 +9,9 @@ import lombok.NoArgsConstructor;
 @Data
 @Entity
 @Builder
-@Table(name = "students")
 @AllArgsConstructor
 @NoArgsConstructor
+@Table(name = "students")
 public class Student {
 
     @Id
